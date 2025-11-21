@@ -1,0 +1,30 @@
+{
+  "name": "appcobro",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cobros",
+    "pagos",
+    "wispro",
+    "google-sheets"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Backend para App de Cobros - Procesamiento de pagos Wispro y comparación con facturas de Google Sheets",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "google-spreadsheet": "^3.3.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.15.3",
+    "papaparse": "^5.5.3",
+    "xlsx": "^0.18.5"
+  }
+}
